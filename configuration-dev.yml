@@ -1,0 +1,20 @@
+# EXAMPLE application.yml with dummy values
+
+SECRET_TOKEN:            "d4e5783de1c74c7a4e3a27578df6gdgf6g786g8df7g6g87d6fgb709"
+
+LINKEDIN_API_KEY:        "2vjkJKjk4"
+LINKEDIN_SECRET_KEY:     "5KLSJDFsE"
+
+GMAIL_USERNAME:          "username@gmail.com"
+GMAIL_PASSWORD:          "PASSWORD"
+
+development:
+  MAILER_HOST: "localhost:3000"
+
+test:
+  MAILER_HOST: "localhost:3000"
+
+production:
+  MAILER_HOST: "domain.com"
+
+
